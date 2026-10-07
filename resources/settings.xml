@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+   
+	<category label="PORTAL 1">
+		<setting id="portal_name_1" type="text" label="Name" default="[B][COLOR lime]PORTAL 1[/COLOR][/B]" />
+   	 	<setting id="portal_url_1" type="text" label="URL" default="http://nxtg.top:8080" visible="eq(-1,false)" />
+   	 	<setting label="Use Custom MAC" type="bool" id="custom_mac_1" default="true"/>
+   	 	<setting id="portal_mac_1" type="text" label="MAC" default="00:1A:79:80:5c:3c" visible="eq(-1,false)" />
+   	 	
+   	 	<setting label="Send Serial" type="bool" id="send_serial_1" default="false"/>
+   	 	<setting label="Custom Serial" type="bool" id="custom_serial_1" default="false" visible="eq(-1,true)"/>
+   	 	<setting type="sep"/>
+   	 	<setting label="Serial Number" type="text" id="serial_number_1" default="" visible="eq(-2,true) + eq(-3,true)"/>
+   	 	<setting label="Device ID 1" type="text" id="device_id_1" default="" visible="eq(-3,true) + eq(-4,true)"/>
+   	 	<setting label="Device ID 2" type="text" id="device_id2_1" default="" visible="eq(-4,true) + eq(-5,true)"/>
+   	 	<setting label="Signature" type="text" id="signature_1" default="" visible="eq(-5,true) + eq(-6,true)"/>
+    </category>
+
+	<category label="PORTAL 2">
+		<setting id="portal_name_2" type="text" label="Name" default="[B][COLOR lime]PORTAL 2[/COLOR][/B]" />
+   	 	<setting id="portal_url_2" type="text" label="URL" default="http://jabreu.eu:8080" visible="eq(-1,false)" />
+   	 	<setting label="Use Custom MAC" type="bool" id="custom_mac_2" default="true"/>
+   	 	<setting id="portal_mac_2" type="text" label="MAC" default="00:1A:79:BB:d1:3b" visible="eq(-1,false)" />
+   	 	
+   	 	<setting label="Send Serial" type="bool" id="send_serial_2" default="false"/>
+   	 	<setting label="Custom Serial" type="bool" id="custom_serial_2" default="false" visible="eq(-1,true)"/>
+   	 	<setting type="sep"/>
+   	 	<setting label="Serial Number" type="text" id="serial_number_2" default="" visible="eq(-2,true) + eq(-3,true)"/>
+   	 	<setting label="Device ID 1" type="text" id="device_id_2" default="" visible="eq(-3,true) + eq(-4,true)"/>
+   	 	<setting label="Device ID 2" type="text" id="device_id2_2" default="" visible="eq(-4,true) + eq(-5,true)"/>
+   	 	<setting label="Signature" type="text" id="signature_2" default="" visible="eq(-5,true) + eq(-6,true)"/>
+    </category>
+
+	<category label="PORTAL 3">
+		<setting id="portal_name_3" type="text" label="Name" default="[B][COLOR lime]PORTAL 3[/COLOR][/B]" />
+   	 	<setting id="portal_url_3" type="text" label="URL" default="http://jabreu.eu:8080"visible="eq(-1,false)" />
+   	 	<setting label="Use Custom MAC" type="bool" id="custom_mac_3" default="true"/>
+   	 	<setting id="portal_mac_3" type="text" label="MAC" default="00:1A:79:BB:48:49" visible="eq(-1,false)" />
+   	 	
+   	 	<setting label="Send Serial" type="bool" id="send_serial_3" default="false"/>
+   	 	<setting label="Custom Serial" type="bool" id="custom_serial_3" default="false" visible="eq(-1,true)"/>
+   	 	<setting type="sep"/>
+   	 	<setting label="Serial Number" type="text" id="serial_number_3" default="" visible="eq(-2,true) + eq(-3,true)"/>
+   	 	<setting label="Device ID 1" type="text" id="device_id_3" default="" visible="eq(-3,true) + eq(-4,true)"/>
+   	 	<setting label="Device ID 2" type="text" id="device_id2_3" default="" visible="eq(-4,true) + eq(-5,true)"/>
+   	 	<setting label="Signature" type="text" id="signature_3" default="" visible="eq(-5,true) + eq(-6,true)"/>
+    </category>
+	
+	<category label="PORTAL 4">
+		<setting id="portal_name_4" type="text" label="Name" default="[B][COLOR lime]PORTAL 4[/COLOR][/B]" />
+   	 	<setting id="portal_url_4" type="text" label="URL" default="http://jabreu.eu:8080" visible="eq(-1,false)" />
+   	 	<setting label="Use Custom MAC" type="bool" id="custom_mac_4" default="true"/>
+   	 	<setting id="portal_mac_4" type="text" label="MAC" default="00:1A:79:BB:c1:92" visible="eq(-1,false)" />
+   	 	
+   	 	<setting label="Send Serial" type="bool" id="send_serial_4" default="false"/>
+   	 	<setting label="Custom Serial" type="bool" id="custom_serial_4" default="false" visible="eq(-1,true)"/>
+   	 	<setting type="sep"/>
+   	 	<setting label="Serial Number" type="text" id="serial_number_4" default="" visible="eq(-2,true) + eq(-3,true)"/>
+   	 	<setting label="Device ID 1" type="text" id="device_id_4" default="" visible="eq(-3,true) + eq(-4,true)"/>
+   	 	<setting label="Device ID 2" type="text" id="device_id2_4" default="" visible="eq(-4,true) + eq(-5,true)"/>
+   	 	<setting label="Signature" type="text" id="signature_4" default="" visible="eq(-5,true) + eq(-6,true)"/>
+    </category>
+	
+    <category label="PORTAL 5">
+		<setting id="portal_name_5" type="text" label="Name" default="[B][COLOR lime]PORTAL 5[/COLOR][/B]" />
+   	 	<setting id="portal_url_5" type="text" label="URL" default="http://jabreu.eu:8080" visible="eq(-1,false)" />
+   	 	<setting label="Use Custom MAC" type="bool" id="custom_mac_5" default="true"/>
+   	 	<setting id="portal_mac_5" type="text" label="MAC" default="00:1A:79:BB:41:db" visible="eq(-1,false)" />
+   	 	
+   	 	<setting label="Send Serial" type="bool" id="send_serial_5" default="false"/>
+   	 	<setting label="Custom Serial" type="bool" id="custom_serial_5" default="false" visible="eq(-1,true)"/>
+   	 	<setting type="sep"/>
+   	 	<setting label="Serial Number" type="text" id="serial_number_5" default="" visible="eq(-2,true) + eq(-3,true)"/>
+   	 	<setting label="Device ID 1" type="text" id="device_id_5" default="" visible="eq(-3,true) + eq(-4,true)"/>
+   	 	<setting label="Device ID 2" type="text" id="device_id2_5" default="" visible="eq(-4,true) + eq(-5,true)"/>
+   	 	<setting label="Signature" type="text" id="signature_5" default="" visible="eq(-5,true) + eq(-6,true)"/>
+    </category>
+	
+    <category label="PORTAL 6">
+		<setting id="portal_name_6" type="text" label="Name" default="[B][COLOR lime]PORTAL 6[/COLOR][/B]" />
+   	 	<setting id="portal_url_6" type="text" label="URL" default="http://jabreu.eu:8080"  visible="eq(-1,false)" />
+   	 	<setting label="Use Custom MAC" type="bool" id="custom_mac_6" default="true"/>
+   	 	<setting id="portal_mac_6" type="text" label="MAC" default="00:1A:79:BB:48:49" visible="eq(-1,false)" />
+   	 	
+   	 	<setting label="Send Serial" type="bool" id="send_serial_6" default="false"/>
+   	 	<setting label="Custom Serial" type="bool" id="custom_serial_6" default="false" visible="eq(-1,true)"/>
+   	 	<setting type="sep"/>
+   	 	<setting label="Serial Number" type="text" id="serial_number_6" default="" visible="eq(-2,true) + eq(-3,true)"/>
+   	 	<setting label="Device ID 1" type="text" id="device_id_6" default="" visible="eq(-3,true) + eq(-4,true)"/>
+   	 	<setting label="Device ID 2" type="text" id="device_id2_6" default="" visible="eq(-4,true) + eq(-5,true)"/>
+   	 	<setting label="Signature" type="text" id="signature_6" default="" visible="eq(-5,true) + eq(-6,true)"/>
+    </category>
+
+	<category label="PORTAL 7">
+		<setting id="portal_name_7" type="text" label="Name" default="[B][COLOR lime]PORTAL 7[/COLOR][/B]" />
+   	 	<setting id="portal_url_7" type="text" label="URL" default="http://jabreu.eu:8080" visible="eq(-1,false)" />
+   	 	<setting label="Use Custom MAC" type="bool" id="custom_mac_7" default="true"/>
+   	 	<setting id="portal_mac_7" type="text" label="MAC" default="00:1A:79:BB:51:5f" visible="eq(-1,false)" />
+   	 	
+   	 	<setting label="Send Serial" type="bool" id="send_serial_7" default="false"/>
+   	 	<setting label="Custom Serial" type="bool" id="custom_serial_7" default="false" visible="eq(-1,true)"/>
+   	 	<setting type="sep"/>
+   	 	<setting label="Serial Number" type="text" id="serial_number_7" default="" visible="eq(-2,true) + eq(-3,true)"/>
+   	 	<setting label="Device ID 1" type="text" id="device_id_7" default="" visible="eq(-3,true) + eq(-4,true)"/>
+   	 	<setting label="Device ID 2" type="text" id="device_id2_7" default="" visible="eq(-4,true) + eq(-5,true)"/>
+   	 	<setting label="Signature" type="text" id="signature_7" default="" visible="eq(-5,true) + eq(-6,true)"/>
+    </category>
+	
+    <category label="PORTAL 8">
+		<setting id="portal_name_8" type="text" label="Name" default="[B][COLOR lime]PORTAL 8[/COLOR][/B]" />
+   	 	<setting id="portal_url_8" type="text" label="URL" default="http://jabreu.eu:8080" visible="eq(-1,false)" />
+   	 	<setting label="Custom MAC" type="bool" id="custom_mac_8" default="true"/>
+   	 	<setting id="portal_mac_8" type="text" label="MAC" default="00:1A:79:BB:51:59" visible="eq(-1,false)" />
+   	 	
+   	 	<setting label="Send Serial" type="bool" id="send_serial_8" default="false"/>
+   	 	<setting label="Custom Serial" type="bool" id="custom_serial_8" default="false" visible="eq(-1,true)"/>
+		<setting type="sep"/>
+   	 	<setting label="Serial Number" type="text" id="serial_number_8" default="" visible="eq(-2,true) + eq(-3,true)"/>
+   	 	<setting label="Device Device ID 1" type="text" id="device_id_8" default="" visible="eq(-3,true) + eq(-4,true)"/>
+   	 	<setting label="Device ID 2" type="text" id="device_id2_8" default="" visible="eq(-4,true) + eq(-5,true)"/>
+   	 	<setting label="Signature" type="text" id="signature_8" default="" visible="eq(-5,true) + eq(-6,true)"/>
+    </category>
+	
+	<category label="PORTAL 9">
+		<setting id="portal_name_9" type="text" label="Name" default="[B][COLOR lime]PORTAL 9[/COLOR][/B]" />
+   	 	<setting id="portal_url_9" type="text" label="URL" default="http://jabreu.eu:8080" visible="eq(-1,false)" />
+   	 	<setting label="Custom MAC" type="bool" id="custom_mac_9" default="true"/>
+   	 	<setting id="portal_mac_9" type="text" label="MAC" default="00:1A:79:BB:c1:0a" visible="eq(-1,false)" />
+   	 	
+   	 	<setting label="Send Serial" type="bool" id="send_serial_9" default="false"/>
+   	 	<setting label="Custom Serial" type="bool" id="custom_serial_9" default="false" visible="eq(-1,true)"/>
+   	 	<setting type="sep"/>
+   	 	<setting label="Serial Number" type="text" id="serial_number_9" default="" visible="eq(-2,true) + eq(-3,true)"/>
+   	 	<setting label="Device ID 1" type="text" id="device_id_9" default="" visible="eq(-3,true) + eq(-4,true)"/>
+   	 	<setting label="Device ID 2" type="text" id="device_id2_9" default="" visible="eq(-4,true) + eq(-5,true)"/>
+   	 	<setting label="Signature" type="text" id="signature_9" default="" visible="eq(-5,true) + eq(-6,true)"/>
+    </category>
+	
+	<category label="PORTAL 10">
+		<setting id="portal_name_10" type="text" label="Name" default="[B][COLOR lime]PORTAL 10[/COLOR][/B]" />
+   	 	<setting id="portal_url_10" type="text" label="URL" default="http://jabreu.eu:8080" visible="eq(-1,false)" />
+   	 	<setting label="Custom MAC" type="bool" id="custom_mac_10" default="true"/>
+		<setting id="portal_mac_10" type="text" label="MAC" default="00:1A:79:BB:c9:87" visible="eq(-1,false)" />
+   	 	
+   	 	<setting label="Send Serial" type="bool" id="send_serial_10" default="false"/>
+   	 	<setting label="Custom Serial" type="bool" id="custom_serial_10" default="false" visible="eq(-1,true)"/>
+   	 	<setting type="sep"/>
+   	 	<setting label="Serial Number" type="text" id="serial_number_10" default="" visible="eq(-2,true) + eq(-3,true)"/>
+   	 	<setting label="Device ID 1" type="text" id="device_id_10" default="" visible="eq(-3,true) + eq(-4,true)"/>
+   	 	<setting label="Device ID 2" type="text" id="device_id2_10" default="" visible="eq(-4,true) + eq(-5,true)"/>
+   	 	<setting label="Signature" type="text" id="signature_10" default="" visible="eq(-5,true) + eq(-6,true)"/>
+    </category>
+	
+	<category label="PORTAL 11">
+		<setting id="portal_name_11" type="text" label="Name" default="[B][COLOR lime]PORTAL 11[/COLOR][/B]" />
+   	 	<setting id="portal_url_11" type="text" label="URL" default="http://jabreu.eu:8080" visible="eq(-1,false)" />
+   	 	<setting label="Custom MAC" type="bool" id="custom_mac_11" default="true"/>
+   	 	<setting id="portal_mac_11" type="text" label="MAC" default="00:1A:79:BB:ce:63" visible="eq(-1,false)" />
+   	 	
+   	 	<setting label="Send Serial" type="bool" id="send_serial_11" default="false"/>
+   	 	<setting label="Custom Serial" type="bool" id="custom_serial_11" default="false" visible="eq(-1,true)"/>
+   	 	<setting type="sep"/>
+   	 	<setting label="Serial Number" type="text" id="serial_number_11" default="" visible="eq(-2,true) + eq(-3,true)"/>
+   	 	<setting label="Device ID 1" type="text" id="device_id_11" default="" visible="eq(-3,true) + eq(-4,true)"/>
+   	 	<setting label="Device ID 2" type="text" id="device_id2_11" default="" visible="eq(-4,true) + eq(-5,true)"/>
+   	 	<setting label="Signature" type="text" id="signature_11" default="" visible="eq(-5,true) + eq(-6,true)"/>
+    </category>
+
+</settings>
+
+
+

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.mc.portal" name="[COLOR yellow]MC PORTAL[/COLOR]" version="1.0" provider-name="[COLOR yellow]MC PORTAL[/COLOR]">
+    <requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+		<import addon="script.module.requests" version="2.25.1+matrix.1"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">[COLOR lime]Matrix [COLOR yellow]Nexus [COLOR red]Omega[/COLOR]</summary>
+		<description>Addon by MC</description>
+		<license></license>
+		<language></language>
+		<forum></forum>
+		<assets>
+            <icon>icon.gif</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+
+
+	</extension>
+</addon>
